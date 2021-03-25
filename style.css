@@ -7,7 +7,45 @@ table, th, td {
     align-content: flex-end;
     display: flexbox;
 }
-ul {
+.disabled :hover {
+    font-size: 55px; 
+    text-align: right; 
+    position: right;
+    height: 250px;
+    width: 250px; 
+}
+.cookie-banner {
+    position: fixed;
+    bottom: 40px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:  black;
+    background-color:yellow;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cookies :hover {
+    background-color:lightgrey;
+    color:blue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10%;
+}
+.close {
+    height: 20px;
+    background-color: #777;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+ul  {
     
     size: 150px;
     list-style-type: none;
@@ -16,7 +54,7 @@ ul {
     overflow: hidden;
     background-color: rgb(148, 92, 148);
 }
-li {
+li  {
     
    float: right;
 } 
@@ -55,6 +93,7 @@ hr {
 
 }
 #section-1 {
+   
     border-radius: 12%;
     width: 615px;
     height: 440px;
@@ -62,7 +101,7 @@ hr {
    /*background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8FOIuntPP88I3m-oClAeMzlR2nQXEvmUdQ&usqp=CAU");
     */
 }
-#section-2 {
+#section-2  {
     width: 950px;
     height: 400px;
     background-image: url("https://img.freepik.com/free-photo/professional-dentist-tools-chair-dental-office_128319-10.jpg?size=626&ext=jpg");
