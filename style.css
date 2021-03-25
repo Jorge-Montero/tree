@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(236, 236, 159);
+}
+table, th, td {
+    border: 1px solid black;
+    width: 25%;
+    align-content: flex-end;
+    display: flexbox;
+}
+ul {
+    
+    size: 150px;
+    list-style-type: none;
+    margin: 5;
+    padding: 20;
+    overflow: hidden;
+    background-color: rgb(148, 92, 148);
+}
+li {
+    
+   float: right;
+} 
+li a {
+    font-size: 35px;
+    color: whitesmoke;
+    display: block;
+    padding: 20px;
+
+}
+#office {
+    border-radius: 20%;
+    width: 600px;
+    height: 400px;
+    align-content: center;
+    display: flexbox;
+}
+#smile {
+    border-radius: 35%;
+    width: 50x;
+    height: 400px;
+}
+.first-doc {
+    display: grid;
+    border: 2px dotted black;
+    width: 200px;
+    float: right;
+}
+hr {
+    color: red;
+
+}
+#section-1 {
+    width: 615px;
+    height: 440px;
+    background-image: /*image of tools*/url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJh1EqQF0cOOFcigM5hjm_ukYxlut4Zka3zg&usqp=CAU");
+   /*background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW8FOIuntPP88I3m-oClAeMzlR2nQXEvmUdQ&usqp=CAU");
+    */
+}
+#section-2 {
+  
+    height: 400px;
+    background-image: url("https://img.freepik.com/free-photo/professional-dentist-tools-chair-dental-office_128319-10.jpg?size=626&ext=jpg");
+}
+h2 {
+    margin: 2%;
+    padding: 25%;
+}
+#profile-1 {
+    border-radius: 2%;
+    background-color: lightyellow;
+}
+#profile-2 {
+    float: right;
+    border-radius: 2%;
+    background-color: lightsalmon;
+}
