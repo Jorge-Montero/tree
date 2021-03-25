@@ -28,7 +28,7 @@ li a {
 
 }
 #office {
-    border-radius: 20%;
+    border-radius: 5%;
     width: 600px;
     height: 400px;
     align-content: center;
@@ -39,6 +39,11 @@ li a {
     width: 50x;
     height: 400px;
 }
+.middle {
+    
+    background-color: rgb(123, 236, 231);
+}
+
 .first-doc {
     display: grid;
     border: 2px dotted black;
@@ -50,6 +55,7 @@ hr {
 
 }
 #section-1 {
+    border-radius: 12%;
     width: 615px;
     height: 440px;
     background-image: /*image of tools*/url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJh1EqQF0cOOFcigM5hjm_ukYxlut4Zka3zg&usqp=CAU");
@@ -57,7 +63,7 @@ hr {
     */
 }
 #section-2 {
-  
+    width: 950px;
     height: 400px;
     background-image: url("https://img.freepik.com/free-photo/professional-dentist-tools-chair-dental-office_128319-10.jpg?size=626&ext=jpg");
 }
@@ -72,5 +78,5 @@ h2 {
 #profile-2 {
     float: right;
     border-radius: 2%;
-    background-color: lightsalmon;
+    background-color: lightcyan;
 }
